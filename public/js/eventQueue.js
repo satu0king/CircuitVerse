@@ -90,7 +90,7 @@ class EventQueue {
         this.frontIndex++;
     }
 
-    swap(v1,v2){
+    swap(v1, v2){
         let obj1 = this.queue[v1];
         obj1.queueProperties.index = v2;
         let obj2 = this.queue[v2];
